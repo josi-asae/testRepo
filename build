@@ -1,4 +1,6 @@
-o "Let us pretend that this is building something ... and takes 20 seconds"
+#!/bin/bash
+
+echo "Let us pretend that this is building something ... and takes 20 seconds"
 
 count=0
 while [ "$count" -lt 20 ]; do
@@ -25,4 +27,3 @@ Pipeline counter was: $GO_PIPELINE_COUNTER
 <body>
 </html>
 EOF
-
